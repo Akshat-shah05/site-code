@@ -1,3 +1,26 @@
 .footer-container {
     display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    background: rgb(17, 17, 17);
+    padding-top: 1.2%;
+    border-top: 2px solid rgb(225, 210, 210);
+    padding-bottom: 1.2%;
+
+}
+
+.footer-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.footer-list li {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-container p{
+    margin-right: 10%;
 }
