@@ -1,5 +1,4 @@
 import "./footer.css"
-import githubImage from './github-logo.png'
 
 const Footer = () => {
     return (
@@ -7,9 +6,15 @@ const Footer = () => {
             <div className="footer-container">
                 <p> Email: Akshatshah1605@gmail.com </p>
                 <ul className="footer-list"> 
-                    <li> Instagram </li>
-                    <li> Github </li>
-                    <li> Twitter </li>
+                    <li> 
+                        <a href="https://www.instagram.com/akshat.shah05/"> Instagram  </a> 
+                    </li>
+                    <li> 
+                        <a href="https://github.com/Akshat-shah05"> Github  </a> 
+                    </li>
+                    <li> 
+                        <a href="https://twitter.com/AkshatShah_05"> Twitter  </a> 
+                    </li>
                 </ul>
             </div>
         </>
