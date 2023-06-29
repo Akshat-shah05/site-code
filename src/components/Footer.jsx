@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
             <div className="footer-container">
-                <p> Email: Akshatshah1605@gmail.com </p>
+                <p> <a href="mailto: akshatshah1605@gmail.com"> Email: Akshatshah1605@gmail.com </a> </p>
                 <ul className="footer-list"> 
                     <li> 
                         <a href="https://www.instagram.com/akshat.shah05/"> Instagram  </a> 

@@ -27,6 +27,11 @@
 }
 
 .footer-list li a{
-    text-decoration: none;
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-container p a{
+    text-decoration: underline;
     color: white;
 }
