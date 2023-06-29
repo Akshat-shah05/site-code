@@ -1,4 +1,6 @@
 import './navbar.css';
+
+// usestate not used yet but will be used for the menu drop in toggle thing for media query.
 import React, { useState } from 'react';
 
 const Navbar = () => {
