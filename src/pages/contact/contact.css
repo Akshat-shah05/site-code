@@ -1,3 +1,98 @@
-.main-contact-body {
-    background: black;
+.main-form-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    -webkit-animation: rotate-center 1.5s ease-in-out both;
+            animation: rotate-center 1.5s ease-in-out both; 
 }
+
+.form-container {
+    background: linear-gradient(90deg, rgba(247, 193, 212, 1) 0%, rgba(185, 237, 243, 1) 50%, rgba(185, 237, 243, 1) 50%);
+    padding: 5%;
+    border-radius: 15px;
+    -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+.form-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    color: white;
+}
+
+.name-label, .email-label, .message-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-box {
+    border-radius: 15px;
+    padding: 6%;
+    margin-bottom: 10%;
+    margin-top: 2%;
+    border-color: rgb(81, 11, 79);
+    border-width: 2px;
+}
+
+.name-label label, .email-label label, .message-label label {
+    color: rgb(81, 11, 79);
+    font-size: 125%;
+    margin-bottom: 3%;
+    font-weight: 500;
+}
+
+#submit-form {
+    margin-top: 15%;
+    margin-bottom: 0%;
+    background: pink;
+    color: rgb(81, 11, 79);
+    font-weight: 900;
+    font-size: 100%;
+}
+
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  @-webkit-keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  
