@@ -35,3 +35,36 @@
     text-decoration: underline;
     color: white;
 }
+
+@media (max-width: 795px){
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .footer-list li {
+        margin-left: 1%;
+    }
+
+    .footer-container p{
+        margin-right: 1%;
+    }
+}
+
+@media (max-width: 630px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container p{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

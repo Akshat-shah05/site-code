@@ -1,9 +1,11 @@
 import './navbar.css';
-
-// usestate not used yet but will be used for the menu drop in toggle thing for media query.
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 
 const Navbar = () => {
+
+    const [toggleMenu, setToggleMenu] = useState(false);
+
     return (
         <>
             <div className="navbar-container">
@@ -11,11 +13,29 @@ const Navbar = () => {
                 <h1 className="logo-name">Akshat Shah</h1>
                 <nav className="navbar-inner">
                     <a href="home">Home</a>
-                    <a href="about-me">About Me</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#papers">Papers</a>
-                    <a href="contact">Contact Me</a>
+                    <a href="about-me">About</a>
+                    <a href="projects">Projects</a>
+                    <a href="papers">Papers</a>
+                    <a href="contact">Contact</a>
                 </nav>
+
+                <div className="navbar-dropdown">
+                    {toggleMenu
+                        ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+                        : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
+                    {toggleMenu && (
+                    <div className="dropdown-container">
+                        <div className="dropdown-contents">
+                            <a href="home">Home</a>
+                            <a href="about-me">About</a>
+                            <a href="projects">Projects</a>
+                            <a href="papers">Papers</a>
+                            <a href="contact">Contact</a>
+                        </div>
+                    </div>
+                 )}
+
+                </div>
             </div>
         </>
     )

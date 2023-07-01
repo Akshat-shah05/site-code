@@ -20,33 +20,34 @@ function Contact() {
 
   return (
     <>
-        <Navbar />
-        <div className="form-text">
-            <h1>Contact Me Through the Card Below!</h1>
-        </div>
-        <div className="main-form-container">
-            <div className="form-container">
-                <form ref={form} onSubmit={sendEmail} className="form">
-                    <div className="name-label">
-                        <label>Name</label>
-                        <input type="text" name="user_name" className="input-box"/>
-                    </div>
-                    <div className="email-label">
-                        <label>Email</label>
-                        <input type="email" name="user_email" className="input-box"/>
-                    </div>
-                    <div className="message-label">
-                        <label>Message</label>
-                        <textarea name="message" className="input-box" id="text-area"/>
-                        <input type="submit" value="Send" className="input-box" id="submit-form"/>
-                    </div>
-
-                    
-                </form>
+        <div className="full-contact-container">
+            <Navbar />
+            <div className="form-text">
+                <h1>Want to connect? Send me a message below!</h1>
             </div>
-        </div>
-    </> 
-        
+            <div className="main-form-container">
+                <div className="form-container">
+                    <form ref={form} onSubmit={sendEmail} className="form">
+                        <div className="name-label">
+                            <label>Name</label>
+                            <input type="text" name="user_name" className="input-box"/>
+                        </div>
+                        <div className="email-label">
+                            <label>Email</label>
+                            <input type="email" name="user_email" className="input-box"/>
+                        </div>
+                        <div className="message-label">
+                            <label>Message</label>
+                            <textarea name="message" className="input-box" id="text-area"/>
+                            <input type="submit" value="Send" className="input-box" id="submit-form"/>
+                        </div>
+
+                        
+                    </form>
+                </div>
+            </div>
+        </div> 
+    </>
   )
 }
 

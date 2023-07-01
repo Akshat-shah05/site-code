@@ -13,6 +13,8 @@ import {
 // Pages Imports
 import Contact from './pages/contact/Contact'
 import AboutMe from './pages/About/aboutMe'
+import Papers from './pages/Papers/Papers'
+import Projects from './pages/Projects/Projects'
 
 const router = createBrowserRouter([
   {
@@ -31,6 +33,14 @@ const router = createBrowserRouter([
     path: "about-me",
     element: <AboutMe />, /* About me page page routing */
   },
+  {
+    path: "papers",
+    element: <Papers />, /* Papers Page routing */
+  },
+  {
+    path: "projects",
+    element: <Projects /> /* Projects Page routing */
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
