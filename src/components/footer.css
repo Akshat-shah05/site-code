@@ -1,9 +1,10 @@
 .footer-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 120%;
     background: rgb(17, 17, 17);
     padding-top: 1.2%;
     border-top: 2px solid rgb(225, 210, 210);
@@ -26,15 +27,22 @@
     margin-right: 10%;
 }
 
-.footer-list li a{
-    text-decoration: underline;
+.footer-container p a {
     color: white;
 }
 
-.footer-container p a{
-    text-decoration: underline;
+.a-insta {
+    color: rgb(233, 110, 233)
+}
+
+.a-github {
     color: white;
 }
+
+.a-twitter {
+    color: rgb(29, 161, 242);
+}
+
 
 @media (max-width: 795px){
 
