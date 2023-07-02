@@ -1,9 +1,8 @@
 .main-body{
-  background: linear-gradient(90deg, rgba(24, 14, 150, 1) 0%, rgba(160, 32, 32, 1) 100%);
-
+  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 1) 0%, rgba(103, 103, 103, 1) 65%, rgba(30, 30, 30, 1) 100%);
 }
 
 body {
-  background: linear-gradient(90deg, rgba(24, 14, 150, 1) 0%, rgba(160, 32, 32, 1) 100%);
+  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 1) 0%, rgba(103, 103, 103, 1) 65%, rgba(30, 30, 30, 1) 100%);
 }
 

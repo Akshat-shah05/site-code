@@ -14,12 +14,12 @@
     border-radius: 83px;
     display: flex;
     flex-direction: column; 
-    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.533);
     transition: 0.3s;   
 }
 
 .card-container:hover {
-    box-shadow: 6px 16px 32px 6px rgba(255, 253, 253, 0.2);
+    box-shadow: 6px 16px 32px 6px rgba(0, 0, 0, 0.533);
 }
 
 .content-card-container {
@@ -67,7 +67,7 @@ div.content-card-container >* {
 
 .source-code a{
     text-decoration: underline;
-    color: pink;
+    color: white;
 }
 
 .technologies-used {

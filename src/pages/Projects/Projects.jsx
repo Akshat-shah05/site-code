@@ -29,10 +29,10 @@ function Projects() {
                 <h4> This was the first webpage I made while learning react. It is responsive travel site designed with figma, and was a great introduction to thinking in React </h4>
                 <h4 className="source-code"> <a href="https://github.com/Akshat-shah05/React-travel-site"> Source Code ! </a></h4>
                 <div className="technologies-used">
-                  <FontAwesomeIcon icon={faHtml5} size="3x" color="orange"/>
-                  <FontAwesomeIcon icon={faCss3} size="3x" color="blue"/>
-                  <FontAwesomeIcon icon={faJs} size="3x" color="yellow"/>
-                  <FaReact size={45} color="blue"/>
+                  <FontAwesomeIcon icon={faHtml5} size="3x"/>
+                  <FontAwesomeIcon icon={faCss3} size="3x"/>
+                  <FontAwesomeIcon icon={faJs} size="3x"/>
+                  <FaReact size={45}/>
                 </div>   
             </div>
           </div>
@@ -45,10 +45,10 @@ function Projects() {
                 <h4> A simple to do list made with react. Works mainly with the DOM to control list-item state and local storage. Great for practicing JS functionalities.  </h4>
                 <h4 className="source-code"> <a href="https://github.com/Akshat-shah05/To-do-list"> Source Code ! </a></h4>
                 <div className="technologies-used">
-                  <FontAwesomeIcon icon={faHtml5} size="3x" color="orange"/>
-                  <FontAwesomeIcon icon={faCss3} size="3x" color="blue"/>
-                  <FontAwesomeIcon icon={faJs} size="3x" color="yellow"/>
-                  <FaReact size={45} color="blue"/>
+                  <FontAwesomeIcon icon={faHtml5} size="3x"/>
+                  <FontAwesomeIcon icon={faCss3} size="3x"/>
+                  <FontAwesomeIcon icon={faJs} size="3x"/>
+                  <FaReact size={45}/>
                 </div>   
             </div>
           </div>
@@ -61,7 +61,7 @@ function Projects() {
               <h4>Making pong in python with turtle and os. Clean UI and responsive until a 300px width - Also supports multiplayer and has sound effects for bounces and wins.</h4>
               <h4 className="source-code"> <a href="https://github.com/Akshat-shah05/pong-python"> Source Code ! </a></h4>
               <div className="technologies-used">
-                  <SiPython size={45} color="green"/>
+                  <SiPython size={45}/>
               </div>
             </div>
           </div>

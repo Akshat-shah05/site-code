@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     margin-top: 2%;
-    -webkit-animation: rotate-center 1.5s ease-in-out both;
-            animation: rotate-center 1.5s ease-in-out both; 
+    -webkit-animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .form-container {
-    background: linear-gradient(90deg, rgba(247, 193, 212, 1) 0%, rgba(185, 237, 243, 1) 50%, rgba(185, 237, 243, 1) 50%);
+    background: black;
     padding: 5%;
     border-radius: 15px;
     width: 20%;
@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     margin-top: 1%;
-    color: white;
+    color: rgb(2, 2, 43);
 }
 
 .name-label, .email-label, .message-label {
@@ -46,7 +46,7 @@
 }
 
 .name-label label, .email-label label, .message-label label {
-    color: rgb(81, 11, 79);
+    color: rgb(255, 249, 255);
     font-size: 125%;
     margin-bottom: 3%;
     font-weight: 500;
@@ -55,32 +55,37 @@
 #submit-form {
     margin-top: 15%;
     margin-bottom: 0%;
-    background: pink;
-    color: rgb(81, 11, 79);
+    background: rgb(98, 166, 255);
+    border-color: black;
+    color: black;
     font-weight: 900;
     font-size: 100%;
 }
 
-@-webkit-keyframes rotate-center {
-    0% {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
-    }
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+            transform: translateZ(-80px);
+    opacity: 0;
   }
-  @keyframes rotate-center {
-    0% {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
-    }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
   }
+}
+@keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+            transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
   
   @-webkit-keyframes shadow-drop-center {
     0% {
