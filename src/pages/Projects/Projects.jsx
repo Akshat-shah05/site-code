@@ -8,7 +8,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3, faJs } from '@fortawesome/free-brands-svg-icons';
 import { FaReact } from 'react-icons/fa';
 import { SiPython } from 'react-icons/si';
-import { Icon } from 'react-icons-kit';
 
 function Projects() {  
   
