@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
 .main-projects-container {
     display: grid;
     grid-template-columns: 35% 35%;
     column-gap: 10%;
     row-gap: 10%;
     height: 100%;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     margin-bottom: 15rem;
     justify-content: center;
 }
 
 .card-container {
-    background: black;
+    background: rgb(0, 0, 0);
     border: 2px solid rgb(236, 38, 236);
     border-radius: 83px;
     display: flex;
@@ -53,9 +55,12 @@ div.content-card-container >* {
 
 .projects-intro{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 9%;
     color: white;
-    margin-top: 1.8rem;
+    margin-top: 2.7rem;
+    font-family: 'Merienda', cursive;
+    font-size: 2rem;;
 }
 
 .card-container img {
@@ -82,6 +87,10 @@ div.technologies-used >* {
     margin-right: 2%;
     margin-left: 2%;
     margin-top: 2%;
+}
+
+.project-card-title {
+    font-family: "aclonica", sans-serif;
 }
 
 @media (max-width: 813px) {

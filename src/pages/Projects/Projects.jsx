@@ -15,7 +15,9 @@ function Projects() {
     <>
         {/* Container for all of the cards --> will be a grid --> turned to flex-column at certain width */}
         
-        <div className="projects-intro"> <h1> Check out my Projects! </h1> </div>
+        <div className="projects-intro"> 
+          <h1> Projects </h1> 
+        </div>
         
         <div className="main-projects-container">
 

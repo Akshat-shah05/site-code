@@ -91,6 +91,13 @@ function AboutMe() {
             </Tilt>
 
             <Tilt>
+              <div id="express-icon" className="aboutme-icons">  
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width='60px' height='60px'/>
+                <h6> Express JS </h6>
+              </div>
+            </Tilt>
+
+            <Tilt>
               <div id="tailwind-icon" className="aboutme-icons">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width='60px' height='60px'/>
                 <h6> Tailwind </h6>
