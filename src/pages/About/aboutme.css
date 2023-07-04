@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+.aboutme-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+}
+
+.about-intro {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Merienda', cursive;
+}
+
+.image-and-description img {
+    border-radius: 70%;
+    animation: glowing 4s infinite;
+}
+
+.programming-languages {
+    color: white;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 3%;
+}
+
+.frameworks {
+    color: white;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 3%;
+}
+
+.language-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    margin-right: 9%;
+}
+
+.language-icon-container >* {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 1%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    padding-bottom: 2%;
+    background: rgb(46, 46, 83);
+    border-radius: 25px;
+}
+
+.framework-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    margin-right: 9%;
+}
+
+.framework-icon-container >* {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 1%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    padding-bottom: 2%;
+    background: rgb(46, 46, 83);
+    border-radius: 25px;
+}
+
+.aboutme-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme-icons img{
+    margin-bottom: 0;
+}
+
+.aboutme-icons h6 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-family: 'merienda', cursive;
+}
+
+
+
+@keyframes glowing {
+    0% {
+      box-shadow: 0 0 30px white;
+    }
+    20% {
+      box-shadow: 0 0 30px skyblue;
+    }
+    40% {
+        box-shadow: 0 0 30px rgb(240, 143, 255);
+      }
+    60% {
+      box-shadow: 0 0 30px rgb(254, 115, 115);
+    }
+    80% {
+        box-shadow: 0 0 30px rgb(254, 124, 64);
+    }
+    100% {
+      box-shadow: 0 0 30px rgb(255, 223, 163);
+    }
+  }
