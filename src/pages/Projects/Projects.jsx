@@ -13,8 +13,6 @@ function Projects() {
   
   return (
     <>
-        <Navbar/>
-
         {/* Container for all of the cards --> will be a grid --> turned to flex-column at certain width */}
         
         <div className="projects-intro"> <h1> Check out my Projects! </h1> </div>
@@ -66,13 +64,6 @@ function Projects() {
             </div>
           </div>
 
-          {/* Card Set up for the 4th project */}
-          <div id="project-card-4" className="card-container">
-            <img></img>
-            <div id="content-container-4" className="content-card-container">
-              
-            </div>
-          </div>
 
         </div>
     </>

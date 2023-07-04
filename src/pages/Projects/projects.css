@@ -11,15 +11,16 @@
 
 .card-container {
     background: black;
+    border: 2px solid rgb(236, 38, 236);
     border-radius: 83px;
     display: flex;
     flex-direction: column; 
-    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.533);
+    box-shadow: 2px 4px 8px 2px rgb(236, 38, 236);
     transition: 0.3s;   
 }
 
 .card-container:hover {
-    box-shadow: 6px 16px 32px 6px rgba(0, 0, 0, 0.533);
+    box-shadow: 3px 8px 16px 3px rgb(236, 38, 236);
 }
 
 .content-card-container {
