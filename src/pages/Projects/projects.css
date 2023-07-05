@@ -7,22 +7,26 @@
     row-gap: 10%;
     height: 100%;
     margin-top: 1rem;
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
     justify-content: center;
 }
 
 .card-container {
-    background: rgb(0, 0, 0);
-    border: 2px solid rgb(236, 38, 236);
     border-radius: 83px;
     display: flex;
     flex-direction: column; 
-    box-shadow: 2px 4px 8px 2px rgb(236, 38, 236);
     transition: 0.3s;   
 }
 
-.card-container:hover {
-    box-shadow: 3px 8px 16px 3px rgb(236, 38, 236);
+#content-container-1, #content-container-2, #content-container-3{
+    background: rgb(32, 25, 74);
+    border-radius: 60px;
+}
+
+.project-card-title {
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px rgb(255, 217, 217) solid;
 }
 
 .content-card-container {
@@ -56,11 +60,16 @@ div.content-card-container >* {
 .projects-intro{
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
     margin-left: 9%;
     color: white;
     margin-top: 2.7rem;
     font-family: 'Merienda', cursive;
     font-size: 2rem;;
+}
+
+.projects-intro h1{
+    margin-bottom: 0;
 }
 
 .card-container img {
@@ -72,7 +81,30 @@ div.content-card-container >* {
 }
 
 .source-code a{
-    text-decoration: underline;
+    text-decoration: 2px underline;
+    color: pink;
+}
+
+.mark-highlight {
+    background-color: rgba(248, 144, 237, 0.64);
+}
+
+.projects-intro-description {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 25%;
+    color: rgba(248, 144, 237, 0.64);
+    margin-top: 0;
+    font-size: 1.25rem;
+    line-height: 170%;
+}
+
+.projects-intro-description h4{
+    font-weight: 400;
+}
+
+.content-card-container h4 {
     color: white;
 }
 
@@ -100,7 +132,7 @@ div.technologies-used >* {
         row-gap: 5%;
         height: 100%;
         margin-top: 2.5rem;
-        margin-bottom: 40rem;
+        margin-bottom: 10rem;
         justify-content: center;
 
     }
