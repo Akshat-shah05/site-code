@@ -1,27 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
 .main-papers-container {
     display: grid;
     grid-template-columns: 35% 35%;
     column-gap: 10%;
     row-gap: 10%;
     height: 100%;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     margin-bottom: 15rem;
     justify-content: center;
 }
 
 .papers-intro {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 9%;
     color: white;
-    margin-top: 1.8rem;
+    margin-top: 1rem;
+    font-family: "Merienda", Cursive;
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-.card-container img {
-    object-fit: contain;
-    object-position: top;
-    width: 100%;
-    border-top-right-radius: 83px;
-    border-top-left-radius: 83px;
+.papers-intro h1{
+    margin-bottom: 0;
 }
 
 .card-container {
@@ -29,9 +33,19 @@
     border-radius: 83px;
     display: flex;
     flex-direction: column; 
-    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
     transition: 0.3s;   
 }
+
+.content-card-container a {
+    text-decoration: none;
+}
+
+.paper-card-title {
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px rgb(255, 217, 217) solid;
+}
+
 
 .content-card-container {
     display: flex;
@@ -43,4 +57,43 @@
     color: white;
     text-align: center;
     margin: 0;
+}
+
+.papers-intro-description {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 25%;
+    color: rgba(248, 144, 237, 0.64);
+    margin-top: 0;
+    font-size: 1.25rem;
+    line-height: 170%;
+}
+
+.papers-intro-description h4{
+    font-weight: 400;
+}
+
+#paper-container-1, #paper-container-2, #paper-container-3, #paper-container-4 {
+    background: rgb(32, 25, 74);
+    border-radius: 60px;
+}
+
+.content-card-container h4 {
+    font-weight: 300;
+    line-height: 200%;
+    margin-bottom: 0;
+}
+
+@media (max-width: 813px) {
+    .main-papers-container {
+        display: grid;
+        grid-template-columns: 75%;
+        row-gap: 5%;
+        height: 100%;
+        margin-top: 2.5rem;
+        margin-bottom: 20rem;
+        justify-content: center;
+
+    }
 }
