@@ -12,8 +12,8 @@ const Navbar = () => {
                 <div className="blob"></div>
                 <h1 className="logo-name">Akshat Shah</h1>
                 <nav className="navbar-inner">
-                    <a href="home">Home</a>
                     <a href="about-me">About</a>
+                    <a href="home">Education</a>
                     <a href="projects">Projects</a>
                     <a href="papers">Papers</a>
                     <a href="contact">Contact</a>
@@ -26,8 +26,8 @@ const Navbar = () => {
                     {toggleMenu && (
                     <div className="dropdown-container">
                         <div className="dropdown-contents">
-                            <a href="home">Home</a>
                             <a href="about-me">About</a>
+                            <a href="education">Education</a>
                             <a href="projects">Projects</a>
                             <a href="papers">Papers</a>
                             <a href="contact">Contact</a>
