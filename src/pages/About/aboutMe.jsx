@@ -6,68 +6,67 @@ function AboutMe() {
   return (
     <>
       <div className="aboutme-container">
-        <h1 className="about-intro"> About Me </h1>
+        <div className="about-intro-div"><h1 className="about-intro"> About Me </h1></div>
         <div className="image-and-description">
           <img src={selfImage} width='275px' height='275'></img>
-          <h4></h4>
+          <h4> Hey, my name is Akshat Shah. I'm a passionate 17 y/o developer pursuing Computer Science at the University of Waterloo! As of now, I am focused on fullstack development, and am exploring cybersecurity, machine learning and web3! </h4>
         </div>
         <div className="programming-languages">
-          <h2> Programming Languages </h2>
+          <div className="languages-title-container"><h2> Programming Languages </h2></div>
           <div className="language-icon-container">
-            <Tilt>
-              <div id="python-icon" className="aboutme-icons">  
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width='60px' height='60px'/>
-                <h6>Python</h6>
-              </div>
-            </Tilt>  
-            
-            <Tilt>
-              <div id="C-icon" className="aboutme-icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width='60px' height='60px'/>
-                <h6>C</h6>
-              </div>
-            </Tilt>
+              <Tilt>
+                <div id="python-icon" className="aboutme-icons">  
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width='60px' height='60px'/>
+                  <h6>Python</h6>
+                </div>
+              </Tilt>  
               
-            <Tilt>
-              <div id="javascript-icon" className="aboutme-icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width='60px' height='60px'/>
-                <h6>Javascript</h6>
-              </div>
-            </Tilt>
-              
-            <Tilt>
-              <div id="html-icon" className="aboutme-icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width='60px' height='60px'/>
-                <h6>HTML</h6>
-              </div>
-            </Tilt>
-              
-            <Tilt>
-              <div id="css-icon" className="aboutme-icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width='60px' height='60px'/>
-                <h6>CSS</h6>
-              </div>
-            </Tilt>
-              
-            <Tilt>
-              <div id="sass-icon" className="aboutme-icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width='60px' height='60px' />
-                <h6>SASS</h6>
-              </div>
-            </Tilt>
-              
-            <Tilt>
-              <div id="mongodb-icon" className="aboutme-icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width='60px' height='60px'/>
-                <h6>MondoDB</h6>
-              </div>
-            </Tilt>
-            
+              <Tilt>
+                <div id="C-icon" className="aboutme-icons">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width='60px' height='60px'/>
+                  <h6>C</h6>
+                </div>
+              </Tilt>
+                
+              <Tilt>
+                <div id="javascript-icon" className="aboutme-icons">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width='60px' height='60px'/>
+                  <h6>Javascript</h6>
+                </div>
+              </Tilt>
+                
+              <Tilt>
+                <div id="html-icon" className="aboutme-icons">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width='60px' height='60px'/>
+                  <h6>HTML</h6>
+                </div>
+              </Tilt>
+
+              <Tilt>
+                <div id="css-icon" className="aboutme-icons">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width='60px' height='60px'/>
+                  <h6>CSS</h6>
+                </div>
+              </Tilt>
+                
+              <Tilt>
+                <div id="sass-icon" className="aboutme-icons">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width='60px' height='60px' />
+                  <h6>SASS</h6>
+                </div>
+              </Tilt>
+                
+              <Tilt>
+                <div id="mongodb-icon" className="aboutme-icons">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width='60px' height='60px'/>
+                  <h6>MondoDB</h6>
+                </div>
+              </Tilt>
           </div>
 
         </div>
         <div className="frameworks">
-          <h2> Frameworks </h2>
+          <div className="frameworks-title-container"><h2> Frameworks </h2></div>
           <div className="framework-icon-container">
             <Tilt>
               <div id="react-icon" className="aboutme-icons">

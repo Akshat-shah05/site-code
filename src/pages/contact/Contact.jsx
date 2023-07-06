@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
 import './contact.css'
 import emailjs from '@emailjs/browser'
 import { useRef } from 'react'
@@ -21,7 +20,6 @@ function Contact() {
   return (
     <>
         <div className="full-contact-container">
-            <Navbar />
             <div className="form-text">
                 <h1>Want to connect? Send me a message below!</h1>
             </div>

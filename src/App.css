@@ -1,10 +1,10 @@
 .main-body{
-  background-image: url(../src/assets/background.png); 
+  /*background-image: url(../src/assets/background.png);*/
   background-color: rgba(0, 0, 0)
 }
 
 body {
-  background-image: url(../src/assets/background.png);
+  /*background-image: url(../src/assets/background.png);*/
   background-color: rgba(0, 0, 0)
 }
 

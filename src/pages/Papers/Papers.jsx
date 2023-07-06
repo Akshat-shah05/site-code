@@ -10,7 +10,6 @@ function Papers() {
         <h1> Papers and Articles </h1>{" "}
         <div className="papers-intro-description">
           <h4>
-            {" "}
             These papers and articles are collections of my best academic and
             non-academic pieces of writing. Whether it be mathematics, the
             sciences or the humanities, my goal with these papers is to enrich my
