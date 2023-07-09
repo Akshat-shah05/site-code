@@ -6,19 +6,22 @@ import About from './pages/About/aboutMe'
 import Projects from './pages/Projects/Projects'
 import Papers from './pages/Papers/Papers'
 import Contact from './pages/contact/Contact'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
      <>
-      <div className='main-body'>
-        <Navbar/>
-        <Intro/>
-        <About />
-        <Projects />
-        <Papers />
-        <Contact />
-        <Footer/>
-      </div>
+      <BrowserRouter>
+        <div className='main-body'>
+          <Navbar/>
+          <Intro/>
+          <About />
+          <Projects />
+          <Papers />
+          <Contact />
+          <Footer/>
+        </div>
+      </BrowserRouter>
      </> 
       
   );

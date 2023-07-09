@@ -6,7 +6,7 @@ function AboutMe() {
   return (
     <>
       <div className="aboutme-container">
-        <div className="about-intro-div"><h1 className="about-intro"> About Me </h1></div>
+        <div className="about-intro-div"><h1 className="about-intro" id="about-me"> About Me </h1></div>
         <div className="image-and-description">
           <img src={selfImage} width='275px' height='275'></img>
           <h4> Hey, my name is Akshat Shah. I'm a passionate 17 y/o developer pursuing Computer Science at the University of Waterloo! As of now, I am focused on fullstack development, and am exploring cybersecurity, machine learning and web3! </h4>

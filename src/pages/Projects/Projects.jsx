@@ -1,8 +1,5 @@
 import React from "react";
 import "./projects.css";
-import travelSite from "../../assets/travel-site.png";
-import toDo from "../../assets/todo.png";
-import pongGame from "../../assets/ponggame.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3, faJs } from "@fortawesome/free-brands-svg-icons";
 import { FaReact } from "react-icons/fa";
@@ -15,7 +12,7 @@ function Projects() {
       {/* Container for all of the cards --> will be a grid --> turned to flex-column at certain width */}
 
       <div className="projects-intro">
-        <h1> Projects </h1>
+        <h1 id="projects"> Projects </h1>
         <div className="projects-intro-description">
           <h4>
             {" "}

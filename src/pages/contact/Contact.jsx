@@ -21,7 +21,7 @@ function Contact() {
     <>
         <div className="full-contact-container">
             <div className="form-text">
-                <h1>Want to connect? Send me a message below!</h1>
+                <h1 id="contact">Want to connect? Send me a message below!</h1>
             </div>
             <div className="main-form-container">
                 <div className="form-container">

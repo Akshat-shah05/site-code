@@ -1,6 +1,8 @@
 import './navbar.css';
 import { useState } from 'react';
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { HashLink as Link } from 'react-router-hash-link'
+
 
 const Navbar = () => {
 
@@ -12,11 +14,11 @@ const Navbar = () => {
                 <div className="blob"></div>
                 <h1 className="logo-name">Akshat Shah</h1>
                 <nav className="navbar-inner">
-                    <a href="about-me">About</a>
-                    <a href="home">Education</a>
-                    <a href="projects">Projects</a>
-                    <a href="papers">Papers</a>
-                    <a href="contact">Contact</a>
+                    <Link to="#about-me" smooth> About </Link>
+                    <Link to="#education" smooth> Education </Link>
+                    <Link to="#projects" smooth> Projects </Link>
+                    <Link to="#papers" smooth> Papers </Link>
+                    <Link to="#contact" smooth> Contact </Link>
                 </nav>
 
                 <div className="navbar-dropdown">
@@ -26,11 +28,11 @@ const Navbar = () => {
                     {toggleMenu && (
                     <div className="dropdown-container">
                         <div className="dropdown-contents">
-                            <a href="about-me">About</a>
-                            <a href="education">Education</a>
-                            <a href="projects">Projects</a>
-                            <a href="papers">Papers</a>
-                            <a href="contact">Contact</a>
+                            <Link to="#about-me" smooth> About </Link>
+                            <Link to="#education" smooth> Education </Link>
+                            <Link to="#projects" smooth> Projects </Link>
+                            <Link to="#papers" smooth> Papers </Link>
+                            <Link to="#contact" smooth> Contact </Link>
                         </div>
                     </div>
                  )}

@@ -7,7 +7,7 @@ function Papers() {
     <>
       <div className="papers-intro">
         {" "}
-        <h1> Papers and Articles </h1>{" "}
+        <h1 id="papers"> Papers and Articles </h1>{" "}
         <div className="papers-intro-description">
           <h4>
             These papers and articles are collections of my best academic and
