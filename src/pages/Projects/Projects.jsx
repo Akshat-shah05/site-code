@@ -42,7 +42,7 @@ function Projects() {
               </h4>
               <h4 className="source-code">
                 {" "}
-                <a href="https://github.com/Akshat-shah05/React-travel-site">
+                <a href="https://github.com/Akshat-shah05/React-travel-site" target="_blank">
                   {" "}
                   Source Code !{" "}
                 </a>
@@ -70,7 +70,7 @@ function Projects() {
               </h4>
               <h4 className="source-code">
                 {" "}
-                <a href="https://github.com/Akshat-shah05/To-do-list">
+                <a href="https://github.com/Akshat-shah05/To-do-list" target="_blank">
                   {" "}
                   Source Code !{" "}
                 </a>
@@ -97,7 +97,7 @@ function Projects() {
               </h4>
               <h4 className="source-code">
                 {" "}
-                <a href="https://github.com/Akshat-shah05/pong-python">
+                <a href="https://github.com/Akshat-shah05/pong-python" target="_blank">
                   {" "}
                   Source Code !{" "}
                 </a>

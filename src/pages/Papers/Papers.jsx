@@ -25,7 +25,7 @@ function Papers() {
         <Tilt>
           <div id="paper-card-1" className="card-container">
             <div id="paper-container-1" className="content-card-container">
-              <a href="https://drive.google.com/file/d/1y1vc92c0NO5j-lR36DOj9SMkcSYQG6oa/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1y1vc92c0NO5j-lR36DOj9SMkcSYQG6oa/view?usp=sharing" target="_blank">
                 <h2 className="paper-card-title">
                   {" "}
                   Mathematical Model of Mars' Planetary Orbit{" "}
@@ -46,7 +46,7 @@ function Papers() {
         <Tilt>
           <div id="paper-card-2" className="card-container">
             <div id="paper-container-2" className="content-card-container">
-              <a href="https://drive.google.com/file/d/1zYvk563cYrg3NF9s8dXjy4tEGzgWA8jW/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1zYvk563cYrg3NF9s8dXjy4tEGzgWA8jW/view?usp=sharing" target="_blank">
                 <h2 className="paper-card-title">
                   {" "}
                   The Relationship Between Voltage and Anode Concentration{" "}
@@ -66,7 +66,7 @@ function Papers() {
         <Tilt>
           <div id="paper-card-3" className="card-container">
             <div id="paper-container-3" className="content-card-container">
-              <a href="https://drive.google.com/file/d/1bA4W-jDNg8bEVjfBv4bxkySBV53Zee_C/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1bA4W-jDNg8bEVjfBv4bxkySBV53Zee_C/view?usp=sharing" target="_blank">
                 <h2 className="paper-card-title">
                   {" "}
                   The Impact of Interpupillary Distance on Binocular Vision{" "}
@@ -85,7 +85,7 @@ function Papers() {
         <Tilt>
           <div id="paper-card-4" className="card-container">
             <div id="paper-container-4" className="content-card-container">
-              <a href="https://drive.google.com/file/d/1llvf29nXGFo1-HtxVuNBKVbz-DqimRdG/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1llvf29nXGFo1-HtxVuNBKVbz-DqimRdG/view?usp=sharing" target="_blank">
                 <h2 className="paper-card-title">
                   {" "}
                   A Detailed Plan to Increasing LFN's Net Profits{" "}
