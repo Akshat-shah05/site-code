@@ -6,7 +6,7 @@ import About from './pages/About/aboutMe'
 import Projects from './pages/Projects/Projects'
 import Papers from './pages/Papers/Papers'
 import Contact from './pages/contact/Contact'
-import FadeinView from './components/FadeinView'
+import Education from './pages/Education/Education'
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {
@@ -16,10 +16,11 @@ function App() {
         <div className='main-body'>
           <Navbar/>
           <Intro/>
-          <FadeinView> <About /> </FadeinView>
-          <FadeinView> <Projects /> </FadeinView>
-          <FadeinView> <Papers /> </FadeinView>
-          <FadeinView> <Contact /> </FadeinView>
+          <About /> 
+          <Education />
+          <Projects />
+          <Papers />
+          <Contact /> 
           <Footer/>
         </div>
       </BrowserRouter>
