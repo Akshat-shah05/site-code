@@ -64,14 +64,14 @@
     justify-content: flex-start;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-right: 25%;
-    color: rgb(250, 173, 243);;
+    color: rgb(170,166,195);
     margin-top: 0;
     font-size: 1.25rem;
     line-height: 170%;
 }
 
 .papers-intro-description h4{
-    font-weight: 400;
+    font-weight: 600;
 }
 
 #paper-container-1, #paper-container-2, #paper-container-3, #paper-container-4 {
