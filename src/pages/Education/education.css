@@ -1,0 +1,44 @@
+.education-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+    color: white;
+    margin-top: 5%;
+}
+
+.education-container h1 {
+    font-family: 'Merienda', cursive;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.education-container h2{
+    font-size: 2rem;
+    margin-top: 0;
+    color: rgb(247, 236, 164);
+    font-family: 'Aclonica', sans-serif;
+    margin-bottom: 0;
+}
+
+.program {
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: rgb(247, 236, 164);
+    
+}
+
+.program-description {
+    color: rgb(170,166,195);
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.further-description {
+    margin-top: 0;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    padding-right: 20%;
+    line-height: 170%;
+    font-weight: 500;
+    color: rgb(170,166,195);
+}
