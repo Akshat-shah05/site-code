@@ -42,3 +42,22 @@
     font-weight: 500;
     color: rgb(170,166,195);
 }
+
+@media (max-width: 601px) {
+    .education-container h1 {
+        font-size: 2rem;
+    }
+    .education-container h2 {
+        font-size: 1rem;
+    }
+    .program {
+        font-size: 1rem;
+    }
+    .program-description {
+        font-size: 1rem;
+    }
+    .further-description {
+        font-size: 0.9rem;
+    }
+
+}

@@ -103,10 +103,11 @@
         font-size: 1rem;
         align-items: center;
         justify-content: center;
-        margin-left: 0;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .papers-intro-description {
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding-right: 0;
     }
 

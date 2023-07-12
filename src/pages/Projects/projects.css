@@ -146,10 +146,10 @@ div.technologies-used >* {
         margin-left: 0;
     }
     .projects-intro-description {
-        font-size: 1rem;
+        font-size: 0.9rem;
         justify-content: center;
-        margin-left: 0;
-        padding-right: 0;
+        margin-left: 5%;
+        padding-right: 5%;
     }
 
 }
