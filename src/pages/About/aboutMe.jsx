@@ -90,59 +90,59 @@ function AboutMe() {
           <div className="frameworks">
             <div className="frameworks-title-container"><h2> Frameworks </h2></div>
             <div className="framework-icon-container">
-              <SlideInR>
+              <SlideIn>
                 <Tilt>
                   <div id="react-icon" className="aboutme-icons">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width='60px' height='60px'/>
                     <h6>React Js</h6>
                   </div>
                 </Tilt>
-              </SlideInR> 
+              </SlideIn> 
 
-              <SlideInR>
+              <SlideIn>
                 <Tilt>
                   <div id="next-icon" className="aboutme-icons">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width='60px' height='60px'/>
                     <h6>Next Js</h6>
                   </div>
                 </Tilt>
-              </SlideInR>
+              </SlideIn>
               
-              <SlideInR>
+              <SlideIn>
                 <Tilt> 
                   <div id="node-icon" className="aboutme-icons">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width='60px' height='60px'/>
                     <h6>Node Js</h6>
                   </div>
                 </Tilt>
-              </SlideInR>
+              </SlideIn>
 
-              <SlideInR>
+              <SlideIn>
                 <Tilt>
                   <div id="express-icon" className="aboutme-icons">  
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width='60px' height='60px'/>
                     <h6> Express JS </h6>
                   </div>
                 </Tilt>
-              </SlideInR>
+              </SlideIn>
 
-              <SlideInR>
+              <SlideIn>
                 <Tilt>
                   <div id="tailwind-icon" className="aboutme-icons">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width='60px' height='60px'/>
                     <h6> Tailwind </h6>
                   </div>
                 </Tilt>
-              </SlideInR>
+              </SlideIn>
 
-              <SlideInR>
+              <SlideIn>
                 <Tilt>
                   <div id="pytorch-icon" className="aboutme-icons">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width='60px' height='60px'/>
                     <h6> Pytorch </h6>
                   </div>
                 </Tilt>
-              </SlideInR>
+              </SlideIn>
             </div>
           </div>
         </div>

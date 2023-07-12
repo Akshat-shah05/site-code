@@ -52,7 +52,7 @@ function Papers() {
           </SlideIn>
 
           {/* Card Set up for the 2nd project */}
-          <SlideInR>
+          <SlideIn>
             <Tilt>
               <div id="paper-card-2" className="card-container">
                 <div id="paper-container-2" className="content-card-container">
@@ -71,7 +71,7 @@ function Papers() {
                 </div>
               </div>
             </Tilt>
-          </SlideInR>
+          </SlideIn>
 
           {/* Card Set up for the 3rd project */}
           <SlideIn>
@@ -95,7 +95,7 @@ function Papers() {
           </SlideIn>
 
           {/* Card Set up for the 4th project */}
-          <SlideInR>
+          <SlideIn>
             <Tilt>
               <div id="paper-card-4" className="card-container">
                 <div id="paper-container-4" className="content-card-container">
@@ -113,7 +113,7 @@ function Papers() {
                 </div>
               </div>
             </Tilt>
-          </SlideInR>
+          </SlideIn>
         </div>
       </FadeinView>
     </>

@@ -66,7 +66,7 @@ function Projects() {
           </SlideIn>
 
           {/* Card Set up for the 2nd project */}
-          <SlideInR>
+          <SlideIn>
             <Tilt>
               <div id="project-card-2" className="card-container">
                 <div id="content-container-2" className="content-card-container">
@@ -93,7 +93,7 @@ function Projects() {
                 </div>
               </div>
             </Tilt>
-          </SlideInR>
+          </SlideIn>
 
           {/* Card Set up for the 3rd project */}
           <SlideIn>

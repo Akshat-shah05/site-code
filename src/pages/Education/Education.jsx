@@ -20,7 +20,7 @@ function Education() {
                     Waterloo, ON, Canada • Sept 2023 - Apr 2028 (Expected)
                     </h3>
                 </SlideIn>
-                <SlideInR>
+                <SlideIn>
                     <h4 className="further-description">
                     Waterloo is home to one of the best Computer Science school and Math
                     Faculty in the world. Intersecting my love for math and programming
@@ -29,7 +29,7 @@ function Education() {
                     Considering my goals, I am planning on a Minor in Combinatorics and
                     Optimization with a specialization in Artificial Intelligence!
                     </h4>
-                </SlideInR>
+                </SlideIn>
             </div>
         </FadeinView>
     </>
