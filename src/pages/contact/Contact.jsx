@@ -31,16 +31,16 @@ function Contact() {
                         <form ref={form} onSubmit={sendEmail} className="form">
                             <div className="name-label">
                                 <label>Name</label>
-                                <input type="text" name="user_name" className="input-box"/>
+                                <input type="text" name="user_name" className="input-box" required/>
                             </div>
                             <div className="email-label">
                                 <label>Email</label>
-                                <input type="email" name="user_email" className="input-box"/>
+                                <input type="email" name="user_email" className="input-box" required/>
                             </div>
                             <div className="message-label">
                                 <label>Message</label>
-                                <textarea name="message" className="input-box" id="text-area"/>
-                                <input type="submit" value="Send" className="input-box" id="submit-form"/>
+                                <textarea name="message" className="input-box" id="text-area" required/>
+                                <input type="submit" value="Send" className="input-box" id="submit-form" />
                             </div>
 
                             

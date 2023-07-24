@@ -63,9 +63,7 @@ function Papers() {
                     </h2>
                     <h4>
                       {" "}
-                      A simple to do list made with react. Works mainly with the DOM
-                      to control list-item state and local storage. Great for
-                      practicing JS functionalities.{" "}
+                      Analyzed the relationship between Voltage and Anode Solution Concentration in a Voltaic/Galvanic Cell using Copper (II) Sulfate and Zinc Nitrate. Achieved results accurate to a 2% error when compared to scientific studies.{" "}
                     </h4>
                   </a>
                 </div>
@@ -84,9 +82,7 @@ function Papers() {
                       The Impact of Interpupillary Distance on Binocular Vision{" "}
                     </h2>
                     <h4>
-                      Making pong in python with turtle and os. Clean UI and
-                      responsive until a 300px width - Also supports multiplayer and
-                      has sound effects for bounces and wins.
+                      Created a modified device that can determine the field of view of each eye, which can be used to determine binocular field of vision. This study has various applications to sports and vision treatments.
                     </h4>
                   </a>
                 </div>
@@ -105,9 +101,7 @@ function Papers() {
                       A Detailed Plan to Increasing LFN's Net Profits{" "}
                     </h2>
                     <h4>
-                      Making pong in python with turtle and os. Clean UI and
-                      responsive until a 300px width - Also supports multiplayer and
-                      has sound effects for bounces and wins.
+                      Produced a 30 page report on the prospect of using sponsorships to increase Low Fat Nutritions Profits. Determined that sponsoring a sports event in Mississauga could lead to a 15% increase in net profit. 
                     </h4>
                   </a>
                 </div>

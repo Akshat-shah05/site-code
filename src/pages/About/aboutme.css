@@ -36,7 +36,9 @@
 }
 
 .image-and-description img {
-    border-radius: 70%;
+    border-radius: 50%;
+    width: 275px;
+    height: 275px;
     animation: glowing 4s infinite;
     justify-content: flex-start;
 }
