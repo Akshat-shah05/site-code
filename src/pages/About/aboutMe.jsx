@@ -1,5 +1,5 @@
 import './aboutme.css'
-import selfImage from '../../assets/self-photo2.jpg'
+import selfImage from '../../assets/self-photo-4.jpg'
 import { Tilt } from 'react-tilt';
 import SlideIn from '../../components/SlideIn';
 import '../../components/slideIn.css';
