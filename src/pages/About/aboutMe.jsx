@@ -80,7 +80,7 @@ function AboutMe() {
                   <Tilt>
                     <div id="mongodb-icon" className="aboutme-icons">
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width='60px' height='60px'/>
-                      <h6>MondoDB</h6>
+                      <h6>MongoDB</h6>
                     </div>
                   </Tilt>
                 </SlideIn> 
