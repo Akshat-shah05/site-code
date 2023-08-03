@@ -88,7 +88,7 @@ function AboutMe() {
 
           </div>
           <div className="frameworks">
-            <div className="frameworks-title-container"><h2> Frameworks </h2></div>
+            <div className="frameworks-title-container"><h2> Libraries and Frameworks </h2></div>
             <div className="framework-icon-container">
               <SlideIn>
                 <Tilt>
