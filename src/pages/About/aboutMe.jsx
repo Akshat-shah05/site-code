@@ -3,7 +3,6 @@ import selfImage from '../../assets/self-photo-4.jpg'
 import { Tilt } from 'react-tilt';
 import SlideIn from '../../components/SlideIn';
 import '../../components/slideIn.css';
-import SlideInR from '../../components/SlideInR';
 import '../../components/slideInR.css';
 import FadeinView from '../../components/FadeinView';
 import '../../components/fade.css';
@@ -17,7 +16,7 @@ function AboutMe() {
           <div className="about-intro-div"><h1 className="about-intro" id="about-me"> About Me </h1></div>
           <div className="image-and-description">
             <img src={selfImage}></img>
-            <h4> Hey, my name is Akshat Shah. I'm a passionate 17 y/o developer pursuing Computer Science at the University of Waterloo! As of now, I am focused on fullstack development, and am exploring cybersecurity, machine learning and web3! </h4>
+            <h4> Hey, my name is Akshat Shah. I'm an 18 year old software developer pursuing Computer Science at the University of Waterloo! As of now, I am focused on fullstack development, and am exploring machine learning and data science. I am currently seeking Summer 2024 internships! </h4>
           </div>
           <div className="programming-languages">
             <div className="languages-title-container"><h2> Programming Languages </h2></div>

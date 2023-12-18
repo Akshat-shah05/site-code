@@ -31,7 +31,7 @@ function Papers() {
           {/* Card Set up for the 1st project */}
           <SlideIn>
             <Tilt>
-              <div id="paper-card-1" className="card-container">
+              <div id="paper-card-1" className="card-containerp">
                 <div id="paper-container-1" className="content-card-container">
                   <a href="https://drive.google.com/file/d/1y1vc92c0NO5j-lR36DOj9SMkcSYQG6oa/view?usp=sharing" target="_blank">
                     <h2 className="paper-card-title">
@@ -54,7 +54,7 @@ function Papers() {
           {/* Card Set up for the 2nd project */}
           <SlideIn>
             <Tilt>
-              <div id="paper-card-2" className="card-container">
+              <div id="paper-card-2" className="card-containerp">
                 <div id="paper-container-2" className="content-card-container">
                   <a href="https://drive.google.com/file/d/1zYvk563cYrg3NF9s8dXjy4tEGzgWA8jW/view?usp=sharing" target="_blank">
                     <h2 className="paper-card-title">
@@ -74,7 +74,7 @@ function Papers() {
           {/* Card Set up for the 3rd project */}
           <SlideIn>
             <Tilt>
-              <div id="paper-card-3" className="card-container">
+              <div id="paper-card-3" className="card-containerp">
                 <div id="paper-container-3" className="content-card-container">
                   <a href="https://drive.google.com/file/d/1bA4W-jDNg8bEVjfBv4bxkySBV53Zee_C/view?usp=sharing" target="_blank">
                     <h2 className="paper-card-title">
@@ -93,7 +93,7 @@ function Papers() {
           {/* Card Set up for the 4th project */}
           <SlideIn>
             <Tilt>
-              <div id="paper-card-4" className="card-container">
+              <div id="paper-card-4" className="card-containerp">
                 <div id="paper-container-4" className="content-card-container">
                   <a href="https://drive.google.com/file/d/1llvf29nXGFo1-HtxVuNBKVbz-DqimRdG/view?usp=sharing" target="_blank">
                     <h2 className="paper-card-title">

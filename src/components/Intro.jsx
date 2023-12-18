@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Intro = () => {
 
     const [currentHeading, setCurrentHeading] = useState(0);
-    const headings = ['Fullstack Developer', 'AI/ML Enthusiast', 'Computer Science Student', 'Explorer', 'Dancer'];
+    const headings = ['Fullstack Developer', 'AI/ML Developer', 'Computer Science Student'];
     
     useEffect(() => {
         const interval = setInterval(() => {

@@ -1,16 +1,23 @@
 import React from "react";
 import "./projects.css";
+import albumify from '../../assets/albumify.png'
+import sangeet from '../../assets/sangeet.png'
+import ecommerce from '../../assets/ecommerce.png'
 import '../../components/fade.css';
 import FadeinView from '../../components/FadeinView';
 import SlideIn from '../../components/SlideIn';
 import '../../components/slideIn.css';
-import SlideInR from '../../components/SlideInR';
 import '../../components/slideInR.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3, faJs } from "@fortawesome/free-brands-svg-icons";
 import { FaReact } from "react-icons/fa";
 import { SiPython } from "react-icons/si";
 import { Tilt } from "react-tilt";
+import { SiTailwindcss } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
+import { SiFastapi } from "react-icons/si";
+import { SiOpenai } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 
 function Projects() {
   return (
@@ -19,19 +26,6 @@ function Projects() {
       <FadeinView>
         <div className="projects-intro">
           <h1 id="projects"> Projects </h1>
-          <div className="projects-intro-description">
-            <h4>
-              {" "}
-              Working on these projects enabled me to expand my knowledge, refine
-              my skills and increase my programming efficiency. These smaller
-              projects have allowed transition into projects that hopefully have a
-              positive impact on society. <br></br><mark className="mark-highlight">
-                {" "}
-                Projects to look out for:
-              </mark>{" "}
-              AI Chrome extension, Full stack stock price predictor + many more!
-            </h4>
-          </div>
         </div>
 
         <div className="main-projects-container">
@@ -40,25 +34,28 @@ function Projects() {
             <Tilt>
               <div id="project-card-1" className="card-container">
                 <div id="content-container-1" className="content-card-container">
-                  <h2 className="project-card-title"> Travel Site </h2>
+                  <div className="pimage"><img src={albumify} style={{ width: '500px', height: '400px' }}></img></div>
+                  <h2 className="project-card-title"> Albumify </h2>
                   <h4>
                     {" "}
-                    This was the first webpage I made while learning react. It is
-                    responsive travel site designed with figma, and was a great
-                    introduction to thinking in React{" "}
+                    A fullstack AI-powered Spotify Playlist Cover Generator made at Hack the North 2023.
+                    Built with Fast API, OpenAI and React!{" "}
                   </h4>
                   <h4 className="source-code">
                     {" "}
-                    <a href="https://github.com/Akshat-shah05/React-travel-site" target="_blank">
+                    <a href="https://github.com/HanzPo/hack-the-north-2023" target="_blank">
                       {" "}
                       Source Code !{" "}
                     </a>
                   </h4>
                   <div className="technologies-used">
-                    <FontAwesomeIcon icon={faHtml5} size="3x" color="white" />
-                    <FontAwesomeIcon icon={faCss3} size="3x" color="white" />
-                    <FontAwesomeIcon icon={faJs} size="3x" color="white" />
-                    <FaReact size={45} color="white" />
+                    <FontAwesomeIcon icon={faHtml5} size="3x" color="orange" />
+                    <FontAwesomeIcon icon={faCss3} size="3x" color="#01B9C5" />
+                    <FontAwesomeIcon icon={faJs} size="3x" color="yellow" />
+                    <FaReact size={45} color="#01B9C5" />
+                    <SiPython size={45} color="green"/>
+                    <SiFastapi size={45} color="#64F2A4" />
+                    <SiOpenai size={45} color="white" />
                   </div>
                 </div>
               </div>
@@ -70,25 +67,26 @@ function Projects() {
             <Tilt>
               <div id="project-card-2" className="card-container">
                 <div id="content-container-2" className="content-card-container">
-                  <h2 className="project-card-title"> To Do List </h2>
+                  <div className="pimage2"><img src={sangeet} style={{ width: '500px', height: '400px' }}></img></div> {/* CHANGE THE IMAGE */}
+                  <h2 className="project-card-title"> Sangeet </h2>
                   <h4>
                     {" "}
-                    A simple to do list made with react. Works mainly with the DOM
-                    to control list-item state and local storage. Great for
-                    practicing JS functionalities.{" "}
+                    Built Sangeet, a spotify 2.0 with added functionalities and an improved UI/UX using tailwind, react, redux and rapidAPI{" "}
                   </h4>
                   <h4 className="source-code">
                     {" "}
-                    <a href="https://github.com/Akshat-shah05/To-do-list" target="_blank">
+                    <a href="" target="_blank"> {/* CHANGE THE SOURCE CODE LINK */}
                       {" "}
                       Source Code !{" "}
                     </a>
                   </h4>
                   <div className="technologies-used">
-                    <FontAwesomeIcon icon={faHtml5} size="3x" color="white" />
-                    <FontAwesomeIcon icon={faCss3} size="3x" color="white" />
-                    <FontAwesomeIcon icon={faJs} size="3x" color="white" />
-                    <FaReact size={45} color="white" />
+                    <FontAwesomeIcon icon={faHtml5} size="3x" color="orange" />
+                    <FontAwesomeIcon icon={faCss3} size="3x" color="#01B9C5" />
+                    <FontAwesomeIcon icon={faJs} size="3x" color="yellow" />
+                    <FaReact size={45} color="#01B9C5" />
+                    <SiTailwindcss size={45} color="#B4D7FF"/>
+                    <SiRedux size={45} color="purple"/>
                   </div>
                 </div>
               </div>
@@ -100,26 +98,27 @@ function Projects() {
             <Tilt>
               <div id="project-card-3" className="card-container">
                 <div id="content-container-3" className="content-card-container">
-                  <h2 className="project-card-title"> Pong in Python </h2>
+                  <div className="pimage"><img src={ecommerce} style={{ width: '500px', height: '400px' }}></img></div> {/* CHANGE THE IMAGE */}
+                  <h2 className="project-card-title"> eCommerce Tracker </h2>
                   <h4>
-                    Making pong in python with turtle and os. Clean UI and
-                    responsive until a 300px width - Also supports multiplayer and
-                    has sound effects for bounces and wins.
+                    Web scraping eCommerce Tracker built with NextJs and TailwindCSS, tested with CronJob.
                   </h4>
-                  <h4 className="source-code">
+                  <h4 className="source-code"> {/* CHANGE THE SOURCE CODE LINK */}
                     {" "}
-                    <a href="https://github.com/Akshat-shah05/pong-python" target="_blank">
+                    <a href="" target="_blank"> {/* CHANGE THE SOURCE CODE LINK */}
                       {" "}
                       Source Code !{" "}
                     </a>
                   </h4>
                   <div className="technologies-used">
-                    <SiPython size={45} color="white" />
+                    <SiNextdotjs size={45} color="white" />
+                    <SiTailwindcss size={45} color="B4D7FF" />
                   </div>
                 </div>
               </div>
             </Tilt>
           </SlideIn>
+
         </div>
       </FadeinView>
       

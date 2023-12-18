@@ -87,6 +87,8 @@
 
 .framework-icon-container >* {
     margin-left: 2%;
+    height: 124px;
+    width: 100px;
     margin-right: 2%;
     padding-top: 1%;
     padding-right: 1.5%;
@@ -106,6 +108,8 @@
 
 .aboutme-icons img{
     margin-bottom: 0;
+    border:none;
+    width: 100%;
 }
 
 .aboutme-icons h6 {
