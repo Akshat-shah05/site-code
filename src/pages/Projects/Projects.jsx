@@ -3,6 +3,7 @@ import "./projects.css";
 import albumify from '../../assets/albumify.png'
 import sangeet from '../../assets/sangeet.png'
 import ecommerce from '../../assets/ecommerce.png'
+import shirt from '../../assets/shirt.png'
 import '../../components/fade.css';
 import FadeinView from '../../components/FadeinView';
 import SlideIn from '../../components/SlideIn';
@@ -11,7 +12,7 @@ import '../../components/slideInR.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3, faJs } from "@fortawesome/free-brands-svg-icons";
 import { FaReact } from "react-icons/fa";
-import { SiPython } from "react-icons/si";
+import { SiExpress, SiNodedotjs, SiPython } from "react-icons/si";
 import { Tilt } from "react-tilt";
 import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
@@ -45,7 +46,10 @@ function Projects() {
                     {" "}
                     <a href="https://github.com/HanzPo/hack-the-north-2023" target="_blank">
                       {" "}
-                      Source Code !{" "}
+                      Source Code! &nbsp;&nbsp;&nbsp;{" "}
+                    </a>
+                    <a href="https://devpost.com/software/funny-name?ref_content=user-portfolio&ref_feature=in_progress">
+                      <strong> Check it Out </strong> 
                     </a>
                   </h4>
                   <div className="technologies-used">
@@ -67,17 +71,19 @@ function Projects() {
             <Tilt>
               <div id="project-card-2" className="card-container">
                 <div id="content-container-2" className="content-card-container">
-                  <div className="pimage2"><img src={sangeet} style={{ width: '500px', height: '400px' }}></img></div> {/* CHANGE THE IMAGE */}
-                  <h2 className="project-card-title"> Sangeet </h2>
+                  <div className="pimage2"><img src={shirt} style={{ width: '500px', height: '400px' }}></img></div> {/* CHANGE THE IMAGE */}
+                  <h2 className="project-card-title"> AI Shirt Customizer </h2>
                   <h4>
                     {" "}
-                    Built Sangeet, a spotify 2.0 with added functionalities and an improved UI/UX using tailwind, react, redux and rapidAPI{" "}
+                    Built a 3D AI Powered Shirt customizer, react, tailwind, openAI, Node and Express{" "}
                   </h4>
                   <h4 className="source-code">
                     {" "}
-                    <a href="" target="_blank"> {/* CHANGE THE SOURCE CODE LINK */}
-                      {" "}
-                      Source Code !{" "}
+                    <a href="https://github.com/Akshat-shah05/ThreeJS-shirt-AI" target="_blank"> {/* CHANGE THE SOURCE CODE LINK */}
+                      Source Code! &nbsp;&nbsp;&nbsp;
+                    </a>
+                    <a href="https://shirt-ai.vercel.app/">
+                      <strong> Try it Out </strong> 
                     </a>
                   </h4>
                   <div className="technologies-used">
@@ -86,7 +92,9 @@ function Projects() {
                     <FontAwesomeIcon icon={faJs} size="3x" color="yellow" />
                     <FaReact size={45} color="#01B9C5" />
                     <SiTailwindcss size={45} color="#B4D7FF"/>
-                    <SiRedux size={45} color="purple"/>
+                    <SiOpenai size={45} color="White"/>
+                    <SiNodedotjs size={45}></SiNodedotjs>
+                    <SiExpress size={45}></SiExpress>
                   </div>
                 </div>
               </div>
@@ -111,6 +119,9 @@ function Projects() {
                     </a>
                   </h4>
                   <div className="technologies-used">
+                    <FontAwesomeIcon icon={faHtml5} size="3x" color="orange" />
+                    <FontAwesomeIcon icon={faCss3} size="3x" color="#01B9C5" />
+                    <FontAwesomeIcon icon={faJs} size="3x" color="yellow" />
                     <SiNextdotjs size={45} color="white" />
                     <SiTailwindcss size={45} color="B4D7FF" />
                   </div>
