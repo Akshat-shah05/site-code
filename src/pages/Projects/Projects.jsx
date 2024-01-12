@@ -36,7 +36,7 @@ function Projects() {
             <Tilt>
               <div id="project-card-1" className="card-container">
                 <div id="content-container-1" className="content-card-container">
-                  <div className="pimage"><img src={albumify} style={{ width: '500px', height: '400px' }}></img></div>
+                  <div className="pimage"><img src={albumify}></img></div>
                   <h2 className="project-card-title"> Albumify </h2>
                   <h4>
                     {" "}
@@ -72,7 +72,7 @@ function Projects() {
             <Tilt>
               <div id="project-card-2" className="card-container">
                 <div id="content-container-2" className="content-card-container">
-                  <div className="pimage2"><img src={shirt} style={{ width: '500px', height: '400px' }}></img></div> {/* CHANGE THE IMAGE */}
+                  <div className="pimage2"><img src={shirt}></img></div> {/* CHANGE THE IMAGE */}
                   <h2 className="project-card-title"> AI Shirt Customizer </h2>
                   <h4>
                     {" "}
@@ -107,7 +107,7 @@ function Projects() {
             <Tilt>
               <div id="project-card-3" className="card-container">
                 <div id="content-container-3" className="content-card-container">
-                  <div className="pimage"><img src={pern} style={{ width: '500px', height: '400px' }}></img></div> {/* CHANGE THE IMAGE */}
+                  <div className="pimage"><img src={pern}></img></div> {/* CHANGE THE IMAGE */}
                   <h2 className="project-card-title"> PERN to-do App </h2>
                   <h4>
                     Fullstack CRUD todo app built with ReactJS, NodeJS, ExpressJS, Bootstrap, PostgreSQL
