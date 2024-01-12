@@ -2,7 +2,7 @@ import React from "react";
 import "./projects.css";
 import albumify from '../../assets/albumify.png'
 import sangeet from '../../assets/sangeet.png'
-import ecommerce from '../../assets/ecommerce.png'
+import pern  from '../../assets/pern.png'
 import shirt from '../../assets/shirt.png'
 import '../../components/fade.css';
 import FadeinView from '../../components/FadeinView';
@@ -12,13 +12,14 @@ import '../../components/slideInR.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3, faJs } from "@fortawesome/free-brands-svg-icons";
 import { FaReact } from "react-icons/fa";
-import { SiExpress, SiNodedotjs, SiPython } from "react-icons/si";
+import { SiExpress, SiNodedotjs, SiPostgresql, SiPython, SiReact } from "react-icons/si";
 import { Tilt } from "react-tilt";
 import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { SiFastapi } from "react-icons/si";
 import { SiOpenai } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
+import { SiBootstrap } from "react-icons/si";
 
 function Projects() {
   return (
@@ -90,7 +91,7 @@ function Projects() {
                     <FontAwesomeIcon icon={faHtml5} size="3x" color="orange" />
                     <FontAwesomeIcon icon={faCss3} size="3x" color="#01B9C5" />
                     <FontAwesomeIcon icon={faJs} size="3x" color="yellow" />
-                    <FaReact size={45} color="#01B9C5" />
+                    <SiReact size={45} color="#01B9C5" />
                     <SiTailwindcss size={45} color="#B4D7FF"/>
                     <SiOpenai size={45} color="White"/>
                     <SiNodedotjs size={45}></SiNodedotjs>
@@ -106,24 +107,25 @@ function Projects() {
             <Tilt>
               <div id="project-card-3" className="card-container">
                 <div id="content-container-3" className="content-card-container">
-                  <div className="pimage"><img src={ecommerce} style={{ width: '500px', height: '400px' }}></img></div> {/* CHANGE THE IMAGE */}
-                  <h2 className="project-card-title"> eCommerce Tracker </h2>
+                  <div className="pimage"><img src={pern} style={{ width: '500px', height: '400px' }}></img></div> {/* CHANGE THE IMAGE */}
+                  <h2 className="project-card-title"> PERN to-do App </h2>
                   <h4>
-                    Web scraping eCommerce Tracker built with NextJs and TailwindCSS, tested with CronJob.
+                    Fullstack CRUD todo app built with ReactJS, NodeJS, ExpressJS, Bootstrap, PostgreSQL
                   </h4>
                   <h4 className="source-code"> {/* CHANGE THE SOURCE CODE LINK */}
                     {" "}
-                    <a href="" target="_blank"> {/* CHANGE THE SOURCE CODE LINK */}
+                    <a href="https://github.com/Akshat-shah05/PERN-ToDo" target="_blank"> {/* CHANGE THE SOURCE CODE LINK */}
                       {" "}
-                      Source Code !{" "}
+                      Source Code !{""}
                     </a>
                   </h4>
                   <div className="technologies-used">
                     <FontAwesomeIcon icon={faHtml5} size="3x" color="orange" />
                     <FontAwesomeIcon icon={faCss3} size="3x" color="#01B9C5" />
                     <FontAwesomeIcon icon={faJs} size="3x" color="yellow" />
-                    <SiNextdotjs size={45} color="white" />
-                    <SiTailwindcss size={45} color="B4D7FF" />
+                    <SiReact size={45} color="#01B9C5" />
+                    <SiBootstrap size={45} color="#AC94F4" />
+                    <SiPostgresql size={45} color="white" />
                   </div>
                 </div>
               </div>
