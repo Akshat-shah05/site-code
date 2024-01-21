@@ -27,7 +27,8 @@
 }
 
 .background-container-intro {
-  background-image: url(../assets/background.png);
+  background-image: url(../assets/star2copy.heic);
+  background-size: contain;
 }
 
 .name {
