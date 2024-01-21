@@ -7,6 +7,7 @@ import Projects from './pages/Projects/Projects'
 import Papers from './pages/Papers/Papers'
 import Contact from './pages/contact/Contact'
 import Education from './pages/Education/Education'
+import Experience from './pages/Experience/Experience';
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Intro/>
           <About /> 
           <Education />
+          <Experience />
           <Projects />
           <Papers />
           <Contact /> 
