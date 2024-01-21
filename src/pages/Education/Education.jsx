@@ -30,6 +30,10 @@ function Education() {
                     Optimization with a specialization in Artificial Intelligence!
                     </h4>
                 </SlideIn>
+                <br />
+                <SlideIn >
+                    <h1 id="experience"> Work Experience </h1>
+                </SlideIn>
             </div>
         </FadeinView>
     </>

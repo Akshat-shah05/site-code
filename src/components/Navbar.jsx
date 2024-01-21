@@ -16,6 +16,7 @@ const Navbar = () => {
                 <nav className="navbar-inner">
                     <Link to="#about-me" smooth> About </Link>
                     <Link to="#education" smooth> Education </Link>
+                    <Link to="#experience" smooth> Experience </Link>
                     <Link to="#projects" smooth> Projects </Link>
                     <Link to="#papers" smooth> Papers </Link>
                     <Link to="#contact" smooth> Contact </Link>
@@ -30,6 +31,7 @@ const Navbar = () => {
                         <div className="dropdown-contents">
                             <Link to="#about-me" smooth> About </Link>
                             <Link to="#education" smooth> Education </Link>
+                            <Link to="#experience" smooth> Experience </Link>
                             <Link to="#projects" smooth> Projects </Link>
                             <Link to="#papers" smooth> Papers </Link>
                             <Link to="#contact" smooth> Contact </Link>
