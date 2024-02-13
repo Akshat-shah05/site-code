@@ -6,6 +6,7 @@ import '../../components/slideIn.css';
 import '../../components/slideInR.css';
 import FadeinView from '../../components/FadeinView';
 import '../../components/fade.css';
+import { SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
 
 function AboutMe() {
@@ -101,7 +102,7 @@ function AboutMe() {
               <SlideIn>
                 <Tilt>
                   <div id="next-icon" className="aboutme-icons">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width='60px' height='60px'/>
+                    <div id="icon-container"><SiNextdotjs size={50} color="white"/></div>
                     <h6>Next Js</h6>
                   </div>
                 </Tilt>
@@ -128,7 +129,7 @@ function AboutMe() {
               <SlideIn>
                 <Tilt>
                   <div id="tailwind-icon" className="aboutme-icons">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width='60px' height='60px'/>
+                    <div id="icon-container"><SiTailwindcss size={50} color="#B4D7FF"/></div>
                     <h6> Tailwind </h6>
                   </div>
                 </Tilt>

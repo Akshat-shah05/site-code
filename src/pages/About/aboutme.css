@@ -124,6 +124,11 @@
     display: flex;
 }
 
+#icon-container {
+    margin-top: 2rem;
+    margin-bottom: 0.45rem;
+}
+
 
 
 @keyframes glowing {
