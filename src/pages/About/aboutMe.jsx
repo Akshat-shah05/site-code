@@ -17,7 +17,7 @@ function AboutMe() {
           <div className="about-intro-div"><h1 className="about-intro" id="about-me"> About Me </h1></div>
           <div className="image-and-description">
             <img src={selfImage}></img>
-            <h4> Hey, my name is Akshat Shah. I'm an 18 year old software developer pursuing Computer Science at the University of Waterloo! As of now, I am focused on fullstack development, and am exploring machine learning and data science. I am currently seeking Summer 2024 internships! </h4>
+            <h4> Hey, my name is Akshat Shah. I'm an 18 year old software developer pursuing Computer Science at the University of Waterloo! As of now, I am focused on fullstack development, and am exploring machine learning and data science. I am currently seeking Winter 2025 internships! </h4>
           </div>
           <div className="programming-languages">
             <div className="languages-title-container"><h2> Programming Languages </h2></div>

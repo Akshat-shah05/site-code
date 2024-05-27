@@ -48,9 +48,6 @@ ReplicateAI, alongside a live AI chatbot to handle user inquiries{" "}
                         {" "}
                         Source Code! &nbsp;&nbsp;&nbsp;{" "}
                       </a>
-                      <a href="https://devpost.com/software/funny-name?ref_content=user-portfolio&ref_feature=in_progress">
-                        <strong> Check it Out </strong> 
-                      </a>
                     </h4>
                     <div className="technologies-used">
                       <SiNextdotjs size={45} color="white"/>

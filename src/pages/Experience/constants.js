@@ -2,11 +2,31 @@ import watstreet from "../../assets/WATSTREET.jpg"
 
 const experiences = [
     {
+      title: "Software Engineering Intern",
+      company_name: "Regional Municipality of York",
+      icon: watstreet,
+      iconBg: "#383E56",
+      date: "May 2024 - Present",
+      points: [
+        "Building internal tools (2000+ users) and web apps with Azure, React, NextJS, C# and Power Platform"
+      ],
+    },
+    {
+      title: "Software Research Assistant",
+      company_name: "University of Waterloo - ArGans Lab",
+      icon: watstreet,
+      iconBg: "#E6DEDD",
+      date: "Jan 2024 - Present",
+      points: [
+        "Working under an NDA - Working on drug discovery and internal research tools under the guidance of Dr. Aravindhan Ganesan"
+      ],
+    },
+    {
       title: "Full Stack Developer",
       company_name: "Wat Street",
       icon: watstreet,
       iconBg: "#383E56",
-      date: "Sept 2023 - Jan 2024",
+      date: "Sept 2023 - April 2024",
       points: [
         "Responsible for the website and algorithmic trading dashboard - Reduced render time by 12% as measured by React Dev Tools and Lighthouse"
       ],
